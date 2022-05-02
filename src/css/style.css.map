@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,AAAC,CACE,WAAW,CAAE,uBAAuB,CACpC,UAAU,CAAE,UAAU,CAAG",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_variables.sass",
+        "../sass/_mixins.sass",
+        "../sass/_general.sass",
+        "../sass/_media.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
