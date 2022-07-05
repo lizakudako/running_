@@ -1,5 +1,5 @@
 {
-  "name": "site1",
+  "name": "pulse_project",
   "version": "1.0.0",
   "description": "test-project one",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lizakudako/site1.git"
+    "url": "git+https://github.com/lizakudako/running_.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lizakudako/site1/issues"
+    "url": "https://github.com/lizakudako/running_/issues"
   },
-  "homepage": "https://github.com/lizakudako/site1#readme",
+  "homepage": "https://github.com/lizakudako/runninng_#readme",
   "devDependencies": {
     "browser-sync": "^2.27.9",
     "gulp": "^4.0.2",
@@ -29,5 +29,9 @@
     "defaults",
     "not IE 11",
     "maintained node versions"
-  ]
+  ],
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0"
+  }
 }

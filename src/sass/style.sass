@@ -1,15 +1,20 @@
+@import libs/_animate
+
 .container 
     max-width: 950px
     margin: 0 auto
+    position: relative
 
-
-@import _variables
-@import _mixins
-@import _general
+@import base/_variables
+@import base/_mixins
+@import base/_general
+@import base/_animations
 
 
 *
-    font-family: 'MuseoModerno', cursive
+    // font-family: 'MuseoModerno', cursive
+    font-family: 'Bellota Text', cursive
+
 body
     box-sizing: border-box
     margin: 0
@@ -23,6 +28,10 @@ body
 @import bloks/_consultation
 @import bloks/_form
 @import bloks/_carousel
+@import bloks/_catalog
+@import bloks/_reviews
+@import bloks/_footer
+@import bloks/_modal
+@import bloks/_pageup
 
-
-@import _media
+@import base/_media
